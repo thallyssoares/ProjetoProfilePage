@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #717D7a, #357867);
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+}
+
+#container, #myresume{
+    width: 400;
+    height: 400px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 150px;
+    background-color: white; 
+}
+
+#myresume{
+    width: 600px;
+}
+
+#profileimg{
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+div > a{
+    color: #357867;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover{
+    background-color: #b8f9e8;
+    color: #58c7ab;
+}
+div > img{
+    margin-left: 5px;
+}
+
+div > h3{
+    margin: 10px 25px;
+}
+
+div > p{
+    margin: 10px;
+    line-height: 1.5em;
+    text-indent: 30px;
+}
+
+#myresume > h3{
+    margin: 10px;
+}
+
+#myresume {
+    display: flex;
+    flex-direction: column;
+}
+
+#myresume > a{
+    width: 200px;
+}
+@media(max-width:700px){
+    main{
+        flex-direction: column;
+    }
+
+    main > div{
+        margin: 10px 0px;
+        width: 100%;
+        
+    }
+
+    #myresume {
+        width: 100%;
+    }
+    
+}
